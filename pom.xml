@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>net.smartcosmos</groupId>
+        <artifactId>smartcosmos-framework-parent</artifactId>
+        <version>2.10.8-SNAPSHOT</version>
+    </parent>
+    <artifactId>smartcosmos-samples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>SMART COSMOS Java Samples</name>
+    <prerequisites>
+        <maven>3.0.0</maven>
+    </prerequisites>
+    <modules>
+        <module>smartcosmos-sample-extension-server-apacheds</module>
+        <module>smartcosmos-sample-extension-service-directory-apacheds</module>
+    </modules>
+    <url>http://smartcosmos.net</url>
+    <inceptionYear>2015</inceptionYear>
+    <organization>
+        <name>Smartrac Technology Fletcher, Inc.</name>
+        <url>http://www.smartrac-group.com</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+            <comments>Copyright (C) 2013 - 2015 Smartrac Technology Fletcher, Inc.</comments>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>cloud.engineering</id>
+            <name>SMARTRAC API Team</name>
+            <email>api@smartrac-group.com</email>
+            <organization>Smartrac Technology Fletcher, Inc.</organization>
+            <roles>
+                <role>Project Lead</role>
+            </roles>
+            <timezone>-5</timezone>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/SMARTRACTECHNOLOGY-PUBLIC/smartcosmos-samples.git</connection>
+        <developerConnection>scm:git:git@github.com:SMARTRACTECHNOLOGY-PUBLIC/smartcosmos-samples.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/SMARTRACTECHNOLOGY-PUBLIC/smartcosmos-samples/tree/master/</url>
+    </scm>
+</project>
