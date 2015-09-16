@@ -114,11 +114,6 @@ public class DirectoryConfiguration extends AbstractSmartCosmosExtensionConfigur
         this.host = host;
     }
 
-    public void setEnabled(boolean enabled)
-    {
-        this.enabled = enabled;
-    }
-
     public void setWorkingDirectory(String workingDirectory)
     {
         this.workingDirectory = workingDirectory;
