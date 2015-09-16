@@ -28,9 +28,6 @@ import javax.validation.constraints.NotNull;
 
 public class DirectoryConfiguration extends AbstractSmartCosmosExtensionConfiguration
 {
-    @JsonProperty
-    private boolean enabled = true;
-
     @NotNull
     @JsonProperty
     private String workingDirectory;
@@ -66,11 +63,6 @@ public class DirectoryConfiguration extends AbstractSmartCosmosExtensionConfigur
     @NotNull
     @JsonProperty
     private String organization;
-
-    public boolean isEnabled()
-    {
-        return enabled;
-    }
 
     public String getOrganization()
     {
