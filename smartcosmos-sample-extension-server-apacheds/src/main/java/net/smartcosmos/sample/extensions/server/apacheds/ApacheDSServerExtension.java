@@ -21,6 +21,7 @@ package net.smartcosmos.sample.extensions.server.apacheds;
  */
 
 import com.google.common.collect.Lists;
+import net.smartcosmos.platform.api.annotation.ServerExtension;
 import net.smartcosmos.platform.base.AbstractServerExtension;
 import org.apache.directory.server.core.DefaultDirectoryService;
 import org.apache.directory.server.core.DirectoryService;
@@ -46,6 +47,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+@ServerExtension
 public final class ApacheDSServerExtension extends AbstractServerExtension<DirectoryConfiguration>
 {
 

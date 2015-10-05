@@ -25,6 +25,7 @@ import freemarker.template.Template;
 import io.dropwizard.auth.basic.BasicCredentials;
 import net.smartcosmos.model.context.IUser;
 import net.smartcosmos.model.context.RoleType;
+import net.smartcosmos.platform.api.annotation.ServiceExtension;
 import net.smartcosmos.platform.api.authentication.IAuthenticatedUser;
 import net.smartcosmos.platform.api.authentication.ICredentials;
 import net.smartcosmos.platform.api.authentication.IRegistration;
@@ -60,6 +61,9 @@ import java.util.Map;
 import java.util.Properties;
 import java.util.UUID;
 
+import static net.smartcosmos.platform.api.annotation.ServiceType.DIRECTORY;
+
+@ServiceExtension(serviceType = DIRECTORY)
 public class EmbeddedLdapDirectoryService extends AbstractService implements IDirectoryService
 {
 
@@ -659,3 +663,4 @@ public class EmbeddedLdapDirectoryService extends AbstractService implements IDi
 
     }
 }
+
